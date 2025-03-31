@@ -16,8 +16,8 @@ public class MailService {
 
     public void enviarCorreo(String destinatario, String nombreCliente, String fechaCompra,
                              double totalCompra, List<DetalleVenta> detalles) throws MessagingException {
-        final String remitente = "jonigodoy19.jg@gmail.com";
-        final String clave = "xbfp etog pdzi imyd";
+        final String remitente = "your_email@example.com";
+        final String clave = "password";
 
         // Configuración de propiedades para SMTP
         Properties props = new Properties();
